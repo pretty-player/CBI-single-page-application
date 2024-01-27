@@ -1,0 +1,26 @@
+.windows-images{
+	border : 1px solid blue;
+}
+/*
+.hidden-seek{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+*/
+.hidden-seek{
+	animation : fading 10s infinite;
+}
+@keyframes fading{
+	0% {
+		opacity : 0;
+	}
+	50%{
+		opacity : 1;
+	}
+	100%{
+		opacity : 0;
+	}
+}
+.context-menu{
+	position : absolute;
+}
+.context-menu div{
+	display : inline-block;
+}

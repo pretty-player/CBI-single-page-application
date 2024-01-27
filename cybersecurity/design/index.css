@@ -1,0 +1,155 @@
+*{
+	box-sizing : border-box;
+	color : black;
+}
+a{
+	text-decoration : none;
+	color : black;
+}
+ .one{
+	 color : blue;
+ }
+ .left-side-window{
+	 height : auto;
+	 position : relative;
+	 display : block;
+	
+ }
+ 
+ .close-symbol{
+	 border-radius : 13px 0;
+	 position : absolute;
+	 cursor : pointer;
+	 right : 0;
+	 top : 0;
+	 border : 1px solid white;
+	 color : blue;
+	 padding : 5px;
+	 margin : 3px;
+	 
+ }
+ .close-symbol:hover{
+	 background : lightblue;
+	 border : 1px solid white;
+	 
+ }
+ .open-symbol{
+	 border-radius : 10px;
+	 position : absolute;
+	 cursor : pointer;
+	 left : 0;
+	 top : 0;
+	 border : 1px solid white;
+	 color : blue;
+	 padding : 0;
+	 margin : 0;
+	 display : none;
+ }
+ .head-container{
+	 height : auto;
+ }
+ .head-items{
+	 padding : 0.5%;
+	 margin : 0.5%;
+	 cursor : pointer;
+	 display : inline-block;
+ }
+ .head-items:hover{
+	color : blue;
+ }
+ .full-header-box{
+	 background-color : white;
+ }
+ .site-name{
+	 font-size : 2em;
+	 padding : 0.5em;
+	 padding-left : 7%;
+ }
+ .site-full-name{
+	 font-size : 2em;
+	 padding-left : 10%;
+	 padding-right : 20%;
+ }
+ ul li{
+	 list-style : none;
+	 padding-top : 10%;
+	 padding-bottom : 5%;
+	 margin : 2%;
+	 color : black;
+ }
+ ul li:hover{
+	 color : blue;
+	 cursor : pointer;
+ }
+ .menu-title-top{
+	 color : blue;
+	 margin-top : 30%;
+	 margin-bottom : 0;
+	 padding : 0.1em;
+ }
+ .menu-title-down{
+	 padding : 0.1em;
+	 color : blue;
+	 margin : 0;
+ }
+  .common-right-side-window{
+	 position : relative;
+	 height : 600px;
+	 background-color : white;
+	 display : none;
+ }
+/*
+.right-side-window{
+	 border : 1px solid green;
+	 position : relative;
+	 height : 600px;
+	 background-color : white;
+	 display : block;
+ }
+*/
+
+
+h1,h3{
+	text-align : center;
+}
+.testing-container{
+	border : 1px solid blue;
+	color : black;
+}
+.highlight{
+	color : blue;
+	font : bold;
+	text-decoration : underline;
+}
+ 
+
+.form-outer{
+	color : black;
+	padding : 1%;
+	text-align : right;
+}
+
+.form-outer-fields{
+	text-align : left;
+}
+input{
+	display : block;
+	padding : 1%;
+	margin : 9px;
+	cursor : pointer;
+}
+
+.signup-ol{
+	list-style : none;
+	padding : 1%;
+}
+.signup-ol li{
+	padding : 5px;
+	margin : 5px;
+	color : black;
+	text-align : right;
+}
+
+ .align-items-center{
+	 text-align : center;
+ }
